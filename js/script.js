@@ -10,7 +10,7 @@ function printStack() {
     return s.slice(0, -1);
 }
 inputArea.onkeyup = function() {
-    STACK = []; SETTINGS = {};
+    STACK = []; SETTINGS = defaultSettings;
     try {
         exe(parse(token(inputArea.value)));
         stackDiv.innerHTML = printStack();
