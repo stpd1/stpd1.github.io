@@ -11,10 +11,10 @@ html {
 
 #input {
     width: calc(100% - 10px);
-    height: 47%;
+    height: calc(50% - 10px);
 }
 #stack {
-    width: calc(100% - 10px);
+    width: calc(50% - 10px);
     height: 47%;
     white-space: pre-wrap;
     overflow-y: scroll;
