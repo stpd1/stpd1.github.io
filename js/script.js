@@ -9,7 +9,9 @@ function printStack() {
     return s.slice(0, -1);
 }
 inputArea.onkeyup = function() {
-    STACK = []; SETTINGS = defaultSettings;
+    STACK = []; 
+    SETT = defaultSett;
+    ENV = defaultEnv;
     try {
         ;
         stackDiv.innerHTML = print(eval(read(inputArea.value)));
