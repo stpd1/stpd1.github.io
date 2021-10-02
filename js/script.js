@@ -17,6 +17,3 @@ inputArea.onkeyup = function() {
         stackDiv.innerHTML = e.message;
     }
 }
-window.onload = function() {
-    inputArea.focus();
-}
