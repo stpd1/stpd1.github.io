@@ -14,7 +14,7 @@ html {
     height: calc(50% - 10px);
 }
 #stack {
-    width: calc(50% - 10px);
+    width: calc(100% - 10px);
     height: 47%;
     white-space: pre-wrap;
     overflow-y: scroll;
