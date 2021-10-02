@@ -11,8 +11,8 @@ function printStack() {
 inputArea.onkeyup = function() {
     STACK = []; SETTINGS = defaultSettings;
     try {
-        eval(read(inputArea.value));
-        stackDiv.innerHTML = printStack();
+        ;
+        stackDiv.innerHTML = print(eval(read(inputArea.value)));
     } catch (e) {
         stackDiv.innerHTML = e.message;
     }
