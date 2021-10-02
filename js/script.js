@@ -12,7 +12,7 @@ function printStack() {
 inputArea.onkeyup = function() {
     STACK = []; SETTINGS = defaultSettings;
     try {
-        exe(parse(token(inputArea.value)));
+        eval(read(inputArea.value));
         stackDiv.innerHTML = printStack();
     } catch (e) {
         stackDiv.innerHTML = e.message;
