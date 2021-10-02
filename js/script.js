@@ -2,10 +2,9 @@
 const inputArea = document.getElementById("input");
 const stackDiv = document.getElementById("stack");
 function printStack() {
-    let rs = STACK.reverse();
     let s = "";
     for (let i in rs) {
-        s += `${i}: ${print(rs[i])}\n`;
+        s += `${i}: ${print(STACK[i])}\n`;
     }
     return s.slice(0, -1);
 }
