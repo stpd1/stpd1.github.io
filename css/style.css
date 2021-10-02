@@ -1,1 +1,10 @@
-
+#input {
+    width: 100%;
+    height: 47%;
+}
+#stack {
+    width: 100%;
+    height: 47%;
+    white-space: pre-wrap;
+    overflow-y: scroll;
+}
