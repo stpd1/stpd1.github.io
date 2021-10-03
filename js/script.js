@@ -1,3 +1,14 @@
+
+// PWA setup
+window.onload = () => {
+  'use strict';
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('./servicew.js');
+  }
+}
+
 // User Interface
 const inputArea = document.getElementById("input");
 const stackDiv = document.getElementById("stack");
