@@ -10,12 +10,12 @@ body {
 }
 
 #input {
-    width: calc(100% - 20px);
-    height: calc(50% - 20px);
+    width: calc(100% - 25px);
+    height: calc(50% - 25px);
 }
 #stack {
-    width: calc(100% - 20px);
-    height: calc(50% - 20px);
+    width: calc(100% - 25px);
+    height: calc(50% - 25px);
     white-space: pre-wrap;
     overflow-y: scroll;
 }
