@@ -1,11 +1,10 @@
-
 // PWA setup
 window.onload = () => {
-  'use strict';
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-             .register('./sw.js');
-  }
+    'use strict';
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+        .register('./sw.js');
+    }
 }
 
 // User Interface
@@ -19,11 +18,10 @@ function printStack() {
     return s.slice(0, -1);
 }
 inputArea.onkeyup = function() {
-    STACK = []; 
+    STACK = [];
     SETT = defaultSett;
     ENV = defaultEnv;
-    try {
-        ;
+    try {;
         stackDiv.innerHTML = print(eval(read(inputArea.value)));
     } catch (e) {
         stackDiv.innerHTML = e.message;
