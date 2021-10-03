@@ -2,8 +2,8 @@
   "name": "stpd",
   "short_name": "stpd",
   "icons": [{
-      "src": "images/icon-512.png",
-      "sizes": "512x512",
+      "src": "images/ms-icon-310x310.png",
+      "sizes": "310x310",
       "type": "image/png"
     }],
   "lang": "en-US",
