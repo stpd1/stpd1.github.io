@@ -27,3 +27,4 @@ inputArea.onkeyup = function() {
         stackDiv.innerHTML = e.message;
     }
 }
+
